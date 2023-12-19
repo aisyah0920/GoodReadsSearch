@@ -1,1 +1,1 @@
-SentenceTransformer==2.2.2
+SentenceTransformer
