@@ -74,7 +74,7 @@ if choice == "Home":
 
         # Display the results
         sorted_indexes = np.argsort(distances)
-        top_documents = sorted_indexes[:5000]
+        top_documents = sorted_indexes[:10]
 
         if not top_documents.any():
             st.write("No matching documents found.")
